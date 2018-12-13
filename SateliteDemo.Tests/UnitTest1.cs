@@ -4,7 +4,7 @@ using Xunit;
 
 namespace SateliteDemo.Tests
 {
-    public class UnitTest1
+    public class UnitTests
     {
         [Fact]
         public void TestMethod1()
