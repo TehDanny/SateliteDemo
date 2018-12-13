@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SateliteDemo.Console", "SateliteDemo.Console\SateliteDemo.Console.csproj", "{C116E6DE-61E1-43C5-8397-CF673AB59139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SateliteDemo.Tests", "SateliteDemo.Tests\SateliteDemo.Tests.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C116E6DE-61E1-43C5-8397-CF673AB59139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C116E6DE-61E1-43C5-8397-CF673AB59139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C116E6DE-61E1-43C5-8397-CF673AB59139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C116E6DE-61E1-43C5-8397-CF673AB59139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94FBBAAE-CDD9-4A99-B838-8887CEDAC0A9}
+	EndGlobalSection
+EndGlobal
