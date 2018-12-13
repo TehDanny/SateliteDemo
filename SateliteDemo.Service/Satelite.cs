@@ -8,5 +8,12 @@ namespace SateliteDemo.Service
 {
     public class Satelite
     {
+        public int Hours { get; set; }
+
+        public int GetData()
+        {
+            int data = Hours * 5;
+            return data;
+        }
     }
 }
