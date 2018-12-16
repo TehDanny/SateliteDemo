@@ -6,4 +6,4 @@
 Scenario: Get data from last 24 hours
 	Given I have entered 24
 	When I press Get Data
-	Then the result should be a lot of data on the screen
+	Then the result should be a 100 lines of data on the screen

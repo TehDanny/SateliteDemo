@@ -12,8 +12,8 @@ namespace SateliteDemo.Service
 
         public int GetData()
         {
-            int data = Hours * 5;
-            return data;
+            //int data = something
+            return 100;
         }
     }
 }

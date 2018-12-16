@@ -22,8 +22,8 @@ namespace SateliteDemo.Tests
             satelite.GetData();
         }
         
-        [Then(@"the result should be a lot of data on the screen")]
-        public void ThenTheResultShouldBeOnTheScreen(int expectedResult)
+        [Then(@"the result should be a (.*) lines of data on the screen")]
+        public void ThenTheResultShouldBeALinesOfDataOnTheScreen(int expectedResult)
         {
             Assert.Equal(expectedResult, result);
         }
